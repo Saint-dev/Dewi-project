@@ -1,0 +1,104 @@
+*{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('hero-bg.jpg');
+	font-family: "Open Sans", sans-serif;
+}
+.logo h1 {
+	font-size: 35px;
+}
+h1, h2, p, button{
+	font-family: "Raleway", sans-serif;
+}
+
+nav {
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+}
+nav ul {
+	padding-left: 199px;
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	font-size: 14px;
+	color:#e6e7e7;
+	padding: 10px 10px;
+	font-weight: 900;
+	text-decoration: none;
+}
+header {
+	margin: 30px;
+}
+ul li:nth-child(1) {
+	width: 62px;
+	border-bottom: 2px solid #ff4a17;
+}
+.container-img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(40,45,49,.7);
+}
+button {
+	
+	font-weight: 900;
+	height: 43px;
+	width: 157px;
+	border-radius: 3px;
+	color: white;
+	background-color: rgba(0,0,0,.0);
+	border: solid white 2px;
+}
+.botoes {
+	padding-right: 99px;
+}
+.button-sec svg {
+	width: 42px;
+}
+.container {
+	gap: 34px;
+	display: flex;
+	height: 70vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.video{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+.video p{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 500;
+}
+.button-sec {
+	gap: 12px;
+	display: flex;
+	flex-direction: row;
+}
+.button-sec button {
+	font-weight: 600;
+	border: none;
+	background-color: #ff4a17;
+}
+
+.text h1{
+	text-align: center;
+	font-size: 3.5rem;
+}
+.text p{
+	font-size: 1.5rem;
+}
